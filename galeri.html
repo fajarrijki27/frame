@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri</title>
+    <style>
+        @media (max-width: 768px) {
+            .tabel img {
+                width: 80px;
+                height: 100px;
+            }
+            .tabel img.khusus{
+                width: 160px;
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <h2>My Galeri</h2>
+    <table class="tabel">
+        <tr>
+            <td><img src="potopoto.jpg" width="150px" height="170px"></td>
+            <td><img src="poto2.jpg" width="150px" height="170px"></td>
+            <td><img src="poto3.jpg" width="150px" height="170px"></td>
+            <td><img src="poto4.jpg" width="150px" height="170px"></td>    
+        </tr>
+        <tr>
+            <td><img src="poto8.jpg" width="150px" height="170px"></td>
+            <td colspan="2">
+                <div class="khusus">
+                    <img src="poto12.jpg" width="300px" height="170px" class="khusus">
+                </div>
+            </td>
+            <td><img src="poto6.jpg" width="150px" height="170px"></td>
+        </tr>
+        <tr>
+            <td><img src="poto9.jpg" width="150px" height="170px"></td>
+            <td><img src="poto7.jpg" width="150px" height="170px"></td>
+            <td><img src="poto10.jpg" width="150px" height="170px"></td>
+            <td><img src="poto11.jpg" width="150px" height="170px"></td>
+        </tr>
+    </table>
+    </center>
+</body>
+</html>
